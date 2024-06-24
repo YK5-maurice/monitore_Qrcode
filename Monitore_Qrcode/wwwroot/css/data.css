@@ -1,0 +1,62 @@
+﻿div .dt-container
+
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Styles pour le tableau */
+.table-wrapper {
+    margin-top: 90px;
+    margin-left: 0%; /* Assurez-vous que cette valeur est appropriée */
+}
+
+table {
+    border: solid 2px rgb(171, 158, 160);
+}
+
+    table thead {
+        background-color: rgb(239, 51, 51);
+    }
+
+/* Styles pour la barre de navigation */
+.bg {
+    background-color: chocolate; /* Changez cette valeur pour la couleur que vous souhaitez */
+}
+
+/* Styles pour le panneau latéral */
+.offcanvas-header {
+    background-color: rgba(198, 224, 255, 0.879);
+}
+
+/* Styles pour les titres */
+h1 {
+    text-align: center;
+}
+
+.custom-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 7px 0 4px;
+}
+
+/* Styles pour les liens dans la barre de navigation */
+@media screen and (max-width: 1000px) {
+    .custom-link {
+        color: black;
+    }
+
+
+}
+
+/* Styles pour les commutateurs de colonnes */
+.switches {
+    text-align: center;
+}
+
+
+
+
+
+    
+

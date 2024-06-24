@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\GTCO\\Monitore_Qrcode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F04A945E-2101-4FF2-B448-2440ABC58C58}|Monitore_Qrcode\\Monitore_Qrcode.csproj|f:\\gtco\\monitore_qrcode\\monitore_qrcode\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F04A945E-2101-4FF2-B448-2440ABC58C58}|Monitore_Qrcode\\Monitore_Qrcode.csproj|solutionrelative:monitore_qrcode\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04A945E-2101-4FF2-B448-2440ABC58C58}|Monitore_Qrcode\\Monitore_Qrcode.csproj|f:\\gtco\\monitore_qrcode\\monitore_qrcode\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F04A945E-2101-4FF2-B448-2440ABC58C58}|Monitore_Qrcode\\Monitore_Qrcode.csproj|solutionrelative:monitore_qrcode\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04A945E-2101-4FF2-B448-2440ABC58C58}|Monitore_Qrcode\\Monitore_Qrcode.csproj|f:\\gtco\\monitore_qrcode\\monitore_qrcode\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F04A945E-2101-4FF2-B448-2440ABC58C58}|Monitore_Qrcode\\Monitore_Qrcode.csproj|solutionrelative:monitore_qrcode\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04A945E-2101-4FF2-B448-2440ABC58C58}|Monitore_Qrcode\\Monitore_Qrcode.csproj|f:\\gtco\\monitore_qrcode\\monitore_qrcode\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F04A945E-2101-4FF2-B448-2440ABC58C58}|Monitore_Qrcode\\Monitore_Qrcode.csproj|solutionrelative:monitore_qrcode\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04A945E-2101-4FF2-B448-2440ABC58C58}|Monitore_Qrcode\\Monitore_Qrcode.csproj|f:\\gtco\\monitore_qrcode\\monitore_qrcode\\views\\home\\data.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F04A945E-2101-4FF2-B448-2440ABC58C58}|Monitore_Qrcode\\Monitore_Qrcode.csproj|solutionrelative:monitore_qrcode\\views\\home\\data.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04A945E-2101-4FF2-B448-2440ABC58C58}|Monitore_Qrcode\\Monitore_Qrcode.csproj|f:\\gtco\\monitore_qrcode\\monitore_qrcode\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F04A945E-2101-4FF2-B448-2440ABC58C58}|Monitore_Qrcode\\Monitore_Qrcode.csproj|solutionrelative:monitore_qrcode\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04A945E-2101-4FF2-B448-2440ABC58C58}|Monitore_Qrcode\\Monitore_Qrcode.csproj|f:\\gtco\\monitore_qrcode\\monitore_qrcode\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F04A945E-2101-4FF2-B448-2440ABC58C58}|Monitore_Qrcode\\Monitore_Qrcode.csproj|solutionrelative:monitore_qrcode\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04A945E-2101-4FF2-B448-2440ABC58C58}|Monitore_Qrcode\\Monitore_Qrcode.csproj|f:\\gtco\\monitore_qrcode\\monitore_qrcode\\models\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F04A945E-2101-4FF2-B448-2440ABC58C58}|Monitore_Qrcode\\Monitore_Qrcode.csproj|solutionrelative:monitore_qrcode\\models\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04A945E-2101-4FF2-B448-2440ABC58C58}|Monitore_Qrcode\\Monitore_Qrcode.csproj|f:\\gtco\\monitore_qrcode\\monitore_qrcode\\models\\encryptaes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F04A945E-2101-4FF2-B448-2440ABC58C58}|Monitore_Qrcode\\Monitore_Qrcode.csproj|solutionrelative:monitore_qrcode\\models\\encryptaes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "F:\\GTCO\\Monitore_Qrcode\\Monitore_Qrcode\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Monitore_Qrcode\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "F:\\GTCO\\Monitore_Qrcode\\Monitore_Qrcode\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Monitore_Qrcode\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAC8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-20T12:22:31.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\GTCO\\Monitore_Qrcode\\Monitore_Qrcode\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Monitore_Qrcode\\Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\GTCO\\Monitore_Qrcode\\Monitore_Qrcode\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Monitore_Qrcode\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T08:23:40.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "F:\\GTCO\\Monitore_Qrcode\\Monitore_Qrcode\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Monitore_Qrcode\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "F:\\GTCO\\Monitore_Qrcode\\Monitore_Qrcode\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Monitore_Qrcode\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T07:42:04.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\GTCO\\Monitore_Qrcode\\Monitore_Qrcode\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Monitore_Qrcode\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\GTCO\\Monitore_Qrcode\\Monitore_Qrcode\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Monitore_Qrcode\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T07:38:56.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\GTCO\\Monitore_Qrcode\\Monitore_Qrcode\\appsettings.json",
+              "RelativeDocumentMoniker": "Monitore_Qrcode\\appsettings.json",
+              "ToolTip": "F:\\GTCO\\Monitore_Qrcode\\Monitore_Qrcode\\appsettings.json",
+              "RelativeToolTip": "Monitore_Qrcode\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-13T07:36:53.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EncryptAES.cs",
+              "DocumentMoniker": "F:\\GTCO\\Monitore_Qrcode\\Monitore_Qrcode\\Models\\EncryptAES.cs",
+              "RelativeDocumentMoniker": "Monitore_Qrcode\\Models\\EncryptAES.cs",
+              "ToolTip": "F:\\GTCO\\Monitore_Qrcode\\Monitore_Qrcode\\Models\\EncryptAES.cs",
+              "RelativeToolTip": "Monitore_Qrcode\\Models\\EncryptAES.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T07:23:30.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Data.cshtml",
+              "DocumentMoniker": "F:\\GTCO\\Monitore_Qrcode\\Monitore_Qrcode\\Views\\Home\\Data.cshtml",
+              "RelativeDocumentMoniker": "Monitore_Qrcode\\Views\\Home\\Data.cshtml",
+              "ToolTip": "F:\\GTCO\\Monitore_Qrcode\\Monitore_Qrcode\\Views\\Home\\Data.cshtml",
+              "RelativeToolTip": "Monitore_Qrcode\\Views\\Home\\Data.cshtml",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAAEIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T18:13:39.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "F:\\GTCO\\Monitore_Qrcode\\Monitore_Qrcode\\Models\\TokenService.cs",
+              "RelativeDocumentMoniker": "Monitore_Qrcode\\Models\\TokenService.cs",
+              "ToolTip": "F:\\GTCO\\Monitore_Qrcode\\Monitore_Qrcode\\Models\\TokenService.cs",
+              "RelativeToolTip": "Monitore_Qrcode\\Models\\TokenService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T12:07:24.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\GTCO\\Monitore_Qrcode\\Monitore_Qrcode\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Monitore_Qrcode\\Controllers\\HomeController.cs",
+              "ToolTip": "F:\\GTCO\\Monitore_Qrcode\\Monitore_Qrcode\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Monitore_Qrcode\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T12:06:00.568Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

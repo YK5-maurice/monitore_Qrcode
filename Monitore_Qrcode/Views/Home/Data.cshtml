@@ -1,0 +1,127 @@
+﻿@{
+    ViewData["Title"] = "Data Page";
+}
+
+@model List<Transaction>;
+
+<link rel="stylesheet" href="~/css/data.css" asp-append-version="true" />
+
+<div class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <svg height="60" width="100">
+                <defs>
+                    <linearGradient id="grad1">
+                        <stop offset="0%" stop-color="yellow" />
+                        <stop offset="100%" stop-color="red" />
+                    </linearGradient>
+                    <linearGradient id="grad2">
+                        <stop offset="0%" stop-color="orange" />
+                        <stop offset="100%" stop-color="red" />
+                    </linearGradient>
+                </defs>
+                <ellipse cx="50" cy="30" rx="50" ry="30" fill="url(#grad2)" />
+                <text fill="#ffffff" font-size="15" font-family="Verdana" x="25" y="35">GT-CO</text>
+            </svg>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                        <svg height="60" width="100">
+                            <ellipse cx="50" cy="30" rx="50" ry="30" fill="url(#grad2)" />
+                            <text fill="#ffffff" font-size="15" font-family="Verdana" x="25" y="35">GT-CO</text>
+                        </svg>
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item"><a class="custom-link" asp-area="" asp-controller="Home" asp-action="Index">Accueil</a></li>
+                        <li class="nav-item"><a class="custom-link" asp-area="" asp-controller="Home" asp-action="Logout">Deconnecter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div class="table-wrapper" style="width:100%">
+    <h1>Plateforme pour surveiller les transactions GTplace</h1>
+
+    <div class="table-responsive" style="overflow-x: auto;">
+        <table id="example" class="display nowrap table table-striped table-bordered row-border hover responsive" style="width:100%">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nom</th>
+                    <th>Tel</th>
+                    <th>UserIdCustomer</th>
+                    <th>TransactionType</th>
+                    <th>CompteBeneficiaire</th>
+                    <th>Montant</th>
+                    <th>Remarques</th>
+                    <th>Service</th>
+                    <th>StatutQrCode</th>
+                    <th>DateTransaction</th>
+                    <th>Imprimer</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var transaction in Model)
+                {
+                    <tr>
+                        <td class="text-center align-middle">@transaction.Id</td>
+                        <td class="text-center align-middle">@transaction.Nom</td>
+                        <td class="text-center align-middle">@transaction.Tel</td>
+                        <td class="text-center align-middle">@transaction.UserIdCustomer</td>
+                        <td class="text-center align-middle">@transaction.TransactionType</td>
+                        <td class="text-center align-middle">@transaction.AccountToCredit</td>
+                        <td class="text-center align-middle">@transaction.Amount</td>
+                        <td class="text-center align-middle">@transaction.Remarks</td>
+                        <td class="text-center align-middle">
+                            @{
+                                if (transaction.IsGTBAccount == "1")
+                                {
+                                    <span>GTbank</span>
+                                    ;
+                                }
+                                else if (transaction.IsMTNMoney == "1")
+                                {
+                                    <span>MTNMoney</span>
+                                    ;
+                                }
+                                else if (transaction.IsOrangeMoney == "1")
+                                {
+                                    <span>OrangeMoney</span>
+                                    ;
+                                }
+                                else if (transaction.IsMoovMoney == "1")
+                                {
+                                    <span>MoovMoney</span>
+                                    ;
+                                }
+                                else
+                                {
+                                    <span>Unknown</span>
+                                    ;
+                                }
+                            }
+                        </td>
+                        <td class="text-center align-middle">@transaction.StatusQrCode</td>
+                        <td class="text-center align-middle">@transaction.InsertDate</td>
+                        <td class="text-center align-middle">
+                            <form asp-action="PrintPDF" asp-controller="Home" method="post">
+                                <input type="hidden" name="idname" value="@transaction.Id" />
+                                <button type="submit" class="btn btn-success" style="height: 20px; padding: 0px 1px; font-size: 14px;">Imprimer</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
